@@ -27,6 +27,8 @@ body {
   font-weight: 400;
   color: #624c45;
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.3;
 }
 
 strong,
@@ -170,9 +172,6 @@ main .btn-bar button:hover {
 }
 
 .status p {
-  color: #624c45;
-  font-size: 24px;
-  line-height: 30px;
-  padding: 20px;
-  border: 2px solid #ccc;
+  color: #5c24b5;
+  padding: 10px 0 0;
 }

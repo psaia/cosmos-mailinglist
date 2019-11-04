@@ -88,18 +88,18 @@
 
         if (count === 1) {
           text =
-            "<p>Thanks to you, " +
+            "<p>Thanks to you, <b>" +
             count +
-            " more Asian women will get access to a supportive community! Invite " +
+            "</b> more Asian women will get access to a supportive community! Invite <b>" +
             (5 - count) +
-            " more and you'll ALL get access to a free workshop on Cultivating Confidence as Asian Womxn.</p>";
+            "</b> more and you'll ALL get access to a free workshop on <i>Cultivating Confidence as Asian Womxn</i>. Check back here to see your progress.</p>";
         } else if (count < 5) {
           text =
-            "<p>Thanks to you, " +
+            "<p>Thanks to you, <b>" +
             count +
-            " more Asian women are getting access to a supportive community! Invite " +
+            "</b> more Asian women are getting access to a supportive community! Invite <b>" +
             (5 - count) +
-            " more and you'll ALL get access to a free workshop on Cultivating Confidence as Asian Womxn.</p>";
+            "</b> more and you'll ALL get access to a free workshop on <i>Cultivating Confidence as Asian Womxn</i>. Check back here to see your progress.</p>";
         } else {
           text =
             "<p>You did it! Check your inbox on <b>11/27</b> for access to the Cultivating Confidence workshop!</p>";
