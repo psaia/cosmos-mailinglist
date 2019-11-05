@@ -65,7 +65,7 @@
       return;
     }
 
-    input.value = "https://www.jointhecosmos.com/?SQF_REFERRER=" + params.email;
+    input.value = "https://www.jointhecosmos.com/?referrer=" + params.email;
 
     new ClipboardJS(".copy-btn", {
       text: function(trigger) {
